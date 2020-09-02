@@ -1,0 +1,432 @@
+// Color Palette
+@black: #000;
+@white: #fff;
+@gray-1: #f7f8fa;
+@gray-2: #f2f3f5;
+@gray-3: #ebedf0;
+@gray-4: #dcdee0;
+@gray-5: #c8c9cc;
+@gray-6: #969799;
+@gray-7: #646566;
+@gray-8: #323233;
+@red: #ee0a24;
+@blue: #1989fa;
+@orange: #ff976a;
+@orange-dark: #ed6a0c;
+@orange-light: #fffbe8;
+@green: #07c160;
+
+// Gradient Colors
+@gradient-red: linear-gradient(to right, #ff6034, #ee0a24);
+@gradient-orange: linear-gradient(to right, #ffd01e, #ff8917);
+
+// Component Colors
+@text-color: @gray-8;
+@active-color: @gray-2;
+@background-color: @gray-1;
+@background-color-light: #fafafa;
+@text-link-color: #576b95;
+
+// Border
+@border-color: @gray-3;
+@border-width-base: 1px;
+
+// ActionSheet
+@action-sheet-description-color: @gray-6;
+@action-sheet-item-background: @white;
+@action-sheet-item-text-color: @text-color;
+@action-sheet-item-disabled-text-color: @gray-5;
+@action-sheet-subname-color: @gray-6;
+@action-sheet-close-icon-color: @gray-5;
+@action-sheet-close-icon-active-color: @gray-6;
+@action-sheet-cancel-text-color: @gray-7;
+@action-sheet-cancel-padding-color: @background-color;
+
+// AddressEdit
+@address-edit-detail-finish-color: @blue;
+
+// AddressList
+@address-list-disabled-text-color: @gray-6;
+@address-list-item-text-color: @text-color;
+@address-list-item-disabled-text-color: @gray-5;
+@address-list-item-radio-icon-color: @red;
+
+// Button
+@button-default-color: @text-color;
+@button-default-background-color: @white;
+@button-default-border-color: @border-color;
+@button-primary-color: @white;
+@button-primary-background-color: @green;
+@button-primary-border-color: @green;
+@button-info-color: @white;
+@button-info-background-color: @blue;
+@button-info-border-color: @blue;
+@button-danger-color: @white;
+@button-danger-background-color: @red;
+@button-danger-border-color: @red;
+@button-warning-color: @white;
+@button-warning-background-color: @orange;
+@button-warning-border-color: @orange;
+@button-plain-background-color: @white;
+
+// Calendar
+@calendar-background-color: @white;
+@calendar-header-box-shadow: 0 2px 10px rgba(125, 126, 128, 0.16);
+@calendar-month-mark-color: fade(@gray-2, 80%);
+@calendar-range-edge-color: @white;
+@calendar-range-edge-background-color: @red;
+@calendar-range-middle-color: @red;
+@calendar-selected-day-color: @white;
+@calendar-selected-day-background-color: @red;
+@calendar-day-disabled-color: @gray-5;
+
+// Card
+@card-text-color: @text-color;
+@card-background-color: @background-color-light;
+@card-desc-color: @gray-7;
+@card-price-color: @gray-8;
+@card-origin-price-color: @gray-6;
+@card-num-color: @gray-6;
+
+// Cell
+@cell-text-color: @text-color;
+@cell-background-color: @white;
+@cell-border-color: @border-color;
+@cell-active-color: @active-color;
+@cell-required-color: @red;
+@cell-label-color: @gray-6;
+@cell-value-color: @gray-6;
+@cell-right-icon-color: @gray-6;
+
+// CellGroup
+@cell-group-background-color: @white;
+@cell-group-title-color: @gray-6;
+
+// Checkbox
+@checkbox-border-color: @gray-5;
+@checkbox-label-color: @text-color;
+@checkbox-checked-icon-color: @blue;
+@checkbox-disabled-icon-color: @gray-5;
+@checkbox-disabled-label-color: @gray-5;
+@checkbox-disabled-background-color: @border-color;
+
+// Circle
+@circle-text-color: @text-color;
+
+// Collapse
+@collapse-item-content-text-color: @gray-6;
+@collapse-item-content-background-color: @white;
+@collapse-item-title-disabled-color: @gray-5;
+
+// ContactCard
+@contact-card-add-icon-color: @blue;
+
+// CountDown
+@count-down-text-color: @text-color;
+
+// Coupon
+@coupon-background-color: @white;
+@coupon-active-background-color: @active-color;
+@coupon-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+@coupon-amount-color: @red;
+@coupon-disabled-text-color: @gray-6;
+@coupon-description-border-color: @border-color;
+
+// CouponCell
+@coupon-cell-selected-text-color: @text-color;
+
+// CouponList
+@coupon-list-background-color: @background-color;
+@coupon-list-empty-tip-color: @gray-6;
+
+// Dialog
+@dialog-background-color: @white;
+@dialog-has-title-message-text-color: @gray-7;
+@dialog-confirm-button-text-color: @red;
+
+// Divider
+@divider-text-color: @gray-6;
+@divider-border-color: @border-color;
+
+// DropdownMenu
+@dropdown-menu-background-color: @white;
+@dropdown-menu-box-shadow: 0 2px 12px fade(@gray-7, 12);
+@dropdown-menu-title-text-color: @text-color;
+@dropdown-menu-title-active-text-color: @red;
+@dropdown-menu-title-disabled-text-color: @gray-6;
+@dropdown-menu-option-active-color: @red;
+
+// Empty
+@empty-description-color: @gray-6;
+
+// Field
+@field-label-color: @gray-7;
+@field-input-text-color: @text-color;
+@field-input-error-text-color: @red;
+@field-input-disabled-text-color: @gray-5;
+@field-placeholder-text-color: @gray-5;
+@field-clear-icon-color: @gray-5;
+@field-right-icon-color: @gray-6;
+@field-error-message-color: @red;
+@field-word-limit-color: @gray-7;
+@field-disabled-text-color: @gray-5;
+
+// GridItem
+@grid-item-content-background-color: @white;
+@grid-item-content-active-color: @active-color;
+@grid-item-text-color: @gray-7;
+
+
+// GoodsAction
+@goods-action-background-color: @white;
+@goods-action-icon-color: @text-color;
+@goods-action-icon-active-color: @active-color;
+@goods-action-icon-text-color: @gray-7;
+@goods-action-button-warning-color: @gradient-orange;
+@goods-action-button-danger-color: @gradient-red;
+
+// IndexAnchor
+@index-anchor-text-color: @text-color;
+@index-anchor-background-color: transparent;
+@index-anchor-sticky-text-color: @green;
+@index-anchor-sticky-background-color: @white;
+
+// IndexBar
+@index-bar-index-active-color: @green;
+
+// Info
+@info-color: @white;
+@info-background-color: @red;
+@info-dot-color: @red;
+
+// Image
+@image-placeholder-text-color: @gray-6;
+@image-placeholder-background-color: @background-color;
+@image-loading-icon-color: @gray-4;
+@image-error-icon-color: @gray-4;
+
+// ImagePreview
+@image-preview-index-text-color: @white;
+@image-preview-index-text-shadow: 0 1px 1px @gray-8;
+@image-preview-overlay-background-color: rgba(0, 0, 0, 0.9);
+@image-preview-close-icon-color: @gray-5;
+@image-preview-close-icon-active-color: @gray-6;
+
+// List
+@list-text-color: @gray-6;
+
+// Loading
+@loading-text-color: @gray-6;
+@loading-spinner-color: @gray-5;
+
+// NavBar
+@nav-bar-background-color: @white;
+@nav-bar-icon-color: @blue;
+@nav-bar-text-color: @blue;
+@nav-bar-title-text-color: @text-color;
+
+// NoticeBar
+@notice-bar-text-color: @orange-dark;
+@notice-bar-background-color: @orange-light;
+
+// Notify
+@notify-text-color: @white;
+@notify-primary-background-color: @blue;
+@notify-success-background-color: @green;
+@notify-danger-background-color: @red;
+@notify-warning-background-color: @orange;
+
+// NumberKeyboard
+@number-keyboard-background-color: @gray-2;
+@number-keyboard-key-active-color: @gray-3;
+@number-keyboard-title-color: @gray-7;
+@number-keyboard-close-color: @text-link-color;
+@number-keyboard-button-text-color: @white;
+@number-keyboard-button-background-color: @blue;
+@number-keyboard-cursor-color: @text-color;
+
+// Overlay
+@overlay-z-index: 1;
+@overlay-background-color: rgba(0, 0, 0, 0.7);
+
+// Pagination
+@pagination-item-default-color: @blue;
+@pagination-item-disabled-color: @gray-7;
+@pagination-item-disabled-background-color: @background-color;
+@pagination-background-color: @white;
+@pagination-desc-color: @gray-7;
+
+// Panel
+@panel-background-color: @white;
+@panel-header-value-color: @red;
+
+// PasswordInput
+@password-input-background-color: @white;
+@password-input-info-color: @gray-6;
+@password-input-error-info-color: @red;
+@password-input-dot-color: @black;
+
+// Picker
+@picker-background-color: @white;
+@picker-confirm-action-color: @text-link-color;
+@picker-cancel-action-color: @gray-6;
+@picker-option-text-color: @black;
+@picker-loading-icon-color: @blue;
+@picker-loading-mask-color: rgba(255, 255, 255, 0.9);
+
+// Popup
+@popup-background-color: @white;
+@popup-close-icon-color: @gray-5;
+@popup-close-icon-active-color: @gray-6;
+
+// Progress
+@progress-color: @blue;
+@progress-background-color: @gray-3;
+@progress-pivot-text-color: @white;
+@progress-pivot-background-color: @blue;
+
+// PullRefresh
+@pull-refresh-head-text-color: @gray-6;
+
+// Radio
+@radio-border-color: @gray-5;
+@radio-label-color: @text-color;
+@radio-checked-icon-color: @blue;
+@radio-disabled-icon-color: @gray-5;
+@radio-disabled-label-color: @gray-5;
+@radio-disabled-background-color: @border-color;
+
+// Rate
+@rate-icon-void-color: @gray-5;
+@rate-icon-full-color: @red;
+@rate-icon-disabled-color: @gray-5;
+
+// ShareSheet
+@share-sheet-title-color: @text-color;
+@share-sheet-description-color: @gray-6;
+@share-sheet-option-name-color: @gray-7;
+@share-sheet-option-description-color: @gray-5;
+@share-sheet-cancel-button-background: @white;
+
+// Search
+@search-background-color: @white;
+@search-content-background-color: @gray-1;
+@search-label-color: @text-color;
+@search-left-icon-color: @gray-6;
+@search-action-text-color: @text-color;
+
+// Sidebar
+@sidebar-text-color: @text-color;
+@sidebar-disabled-text-color: @gray-5;
+@sidebar-active-color: @active-color;
+@sidebar-background-color: @background-color;
+@sidebar-selected-text-color: @text-color;
+@sidebar-selected-border-color: @red;
+@sidebar-selected-background-color: @white;
+
+// Skeleton
+@skeleton-row-background-color: @active-color;
+@skeleton-avatar-background-color: @active-color;
+
+// Slider
+@slider-active-background-color: @blue;
+@slider-inactive-background-color: @gray-3;
+@slider-button-background-color: @white;
+@slider-button-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+
+// Step
+@step-text-color: @gray-6;
+@step-active-color: @green;
+@step-process-text-color: @text-color;
+@step-line-color: @border-color;
+@step-finish-line-color: @green;
+@step-finish-text-color: @text-color;
+@step-circle-color: @gray-6;
+
+// Steps
+@steps-background-color: @white;
+
+// Stepper
+@stepper-active-color: #e8e8e8;
+@stepper-background-color: @active-color;
+@stepper-button-icon-color: @text-color;
+@stepper-button-disabled-color: @background-color;
+@stepper-button-disabled-icon-color: @gray-5;
+@stepper-button-round-theme-color: @red;
+@stepper-input-text-color: @text-color;
+@stepper-input-disabled-text-color: @gray-5;
+@stepper-input-disabled-background-color: @active-color;
+
+// SubmitBar
+@submit-bar-background-color: @white;
+@submit-bar-price-color: @red;
+@submit-bar-text-color: @text-color;
+@submit-bar-tip-color: #f56723;
+@submit-bar-tip-background-color: #fff7cc;
+
+// Swipe
+@swipe-indicator-active-background-color: @blue;
+@swipe-indicator-inactive-background-color: @border-color;
+
+// Switch
+@switch-node-background-color: @white;
+@switch-node-box-shadow: 0 3px 1px 0 rgba(0, 0, 0, 0.05), 0 2px 2px 0 rgba(0, 0, 0, 0.1),
+  0 3px 3px 0 rgba(0, 0, 0, 0.05);
+@switch-background-color: @white;
+@switch-on-background-color: @blue;
+@switch-border: @border-width-base solid rgba(0, 0, 0, 0.1);
+
+// Tabbar
+@tabbar-background-color: @white;
+
+// TabbarItem
+@tabbar-item-text-color: @gray-7;
+@tabbar-item-active-color: @blue;
+
+// Tab
+@tab-text-color: @gray-7;
+@tab-active-text-color: @text-color;
+@tab-disabled-text-color: @gray-5;
+
+// Tabs
+@tabs-default-color: @red;
+@tabs-nav-background-color: @white;
+@tabs-bottom-bar-color: @tabs-default-color;
+
+// Tag
+@tag-text-color: @white;
+@tag-danger-color: @red;
+@tag-primary-color: @blue;
+@tag-success-color: @green;
+@tag-warning-color: @orange;
+@tag-default-color: @gray-6;
+@tag-plain-background-color: @white;
+
+// Toast
+@toast-text-color: @white;
+@toast-loading-icon-color: @white;
+@toast-background-color: fade(@black, 70%);
+
+// TreeSelect
+@tree-select-nav-background-color: @background-color;
+@tree-select-content-background-color: @white;
+@tree-select-item-active-color: @red;
+@tree-select-item-disabled-color: @gray-5;
+
+// Uploader
+@uploader-icon-color: @gray-4;
+@uploader-text-color: @gray-6;
+@uploader-upload-background-color: @gray-1;
+@uploader-upload-active-color: @active-color;
+@uploader-delete-color: @white;
+@uploader-delete-background-color: rgba(0, 0, 0, 0.7);
+@uploader-file-background-color: @background-color;
+@uploader-file-icon-color: @gray-7;
+@uploader-file-name-text-color: @gray-7;
+@uploader-mask-background-color: fade(@gray-8, 88%);
+@uploader-loading-icon-color: @white;
+
+// Sku
+@sku-item-background-color: @background-color;
+@sku-icon-gray-color: @gray-4;
+@sku-upload-mask-color: rgba(50, 50, 51, 0.8);

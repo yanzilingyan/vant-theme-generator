@@ -1,0 +1,30 @@
+{
+  "name": "vant-theme-generator",
+  "version": "1.0.1",
+  "description": "This script generates color specific styles/less file which you can use to change theme dynamically in browser.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd examples && npm run serve && cd ../"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luocong2016/vant-theme-generator"
+  },
+  "keywords": [
+    "vant",
+    "theme",
+    "less",
+    "dynamic-theme",
+    "css"
+  ],
+  "author": "lutz",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^7.1.6",
+    "hash.js": "^1.1.7",
+    "less": "^3.12.2",
+    "less-plugin-npm-import": "^2.1.0",
+    "postcss": "^7.0.32",
+    "strip-css-comments": "^4.0.0"
+  }
+}
