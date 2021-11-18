@@ -1,3 +1,6 @@
+## 描述
+This script generates color specific styles/less file which you can use to change theme dynamically in browser.
+
 ## 安装
 ```
 npm i -D vant-theme-generator
